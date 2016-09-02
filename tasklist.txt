@@ -1,0 +1,8 @@
+//
+
+// I want my main layout to comprise of a multimedia grid template with infinite scroll
+// the top navigation bar should include logo + home, what's new, tags/topics/categories/, search, send/share a smile,
+    instant social media links and possibly a sub button.
+//     
+
+//
