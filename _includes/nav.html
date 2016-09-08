@@ -46,8 +46,12 @@
         <nav class="iconnav">
             <ul>
                 <li class="sicon">
-                    <a href='#search'><i class='fa fa-search'></i></a>
+                    <link href="tipuesearch/tipuesearch.css" rel="stylesheet">
                 </li>
+                 <form action="search.html">
+                    <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+                </form>
+                
                 {% if site.tumblr %}
                 <li class="social">
                     <a href="{{ site.tumblr }}" class="tumblr"><i class="fa fa-tumblr"></i></a>
