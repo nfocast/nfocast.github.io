@@ -1,0 +1,94 @@
+<div class="main-menu">
+    <div class="content">
+        <nav id="menu">
+            <a class="toggle-link noline"><i class="fa fa-close fa-lg"></i></a>
+            <ul>
+                <li>
+                    <a class="homelink" href="{{ site.baseurl | replace: '//', '/' }}/">Home</a>
+                </li>
+                <li>
+                    <a href="{{ site.baseurl | replace: '//', '/' }}/about">Who am I?</a>
+                </li>
+                <li><a class="dropdown-button" href="{{ site.baseurl | replace: '//', '/' }}/categories" data-activates='drop-example'>Categories&nbsp;&nbsp;<i class="fa fa-caret-down"></i></a>
+                </li>
+                <div id="drop-example" class="dropdown-content">
+                    <li>
+                        <a href="{{ site.baseurl | replace: '//', '/' }}/categories"Art</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl | replace: '//', '/' }}/categories">Food</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl | replace: '//', '/' }}/categories">Funnies</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl | replace: '//', '/' }}/categories">Medical/Health</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl | replace: '//', '/' }}/categories">Music</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl | replace: '//', '/' }}/categories">News</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl | replace: '//', '/' }}/categories">People</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl | replace: '//', '/' }}/categories">Tag List</a>
+                    </li>
+                </div>
+                <li>
+                    <a class="archive" href="{{ site.baseurl | replace: '//', '/' }}/categories">Archive</a>
+                </li>
+                
+            </ul>
+        </nav>
+        <nav class="iconnav">
+            <ul>
+                <li class="sicon">
+                    <link href="tipuesearch/tipuesearch.css" rel="stylesheet">
+                </li>
+                 <form action="results-index.html">
+                    <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+                </form>
+                
+                {% if site.tumblr %}
+                <li class="social">
+                    <a href="{{ site.tumblr }}" class="tumblr"><i class="fa fa-tumblr"></i></a>
+                </li>
+                {% endif %} {% if site.pinterest %}
+                <li class="social">
+                    <a href="{{ site.pinterest }}" class="pinterest"><i class="fa fa-pinterest"></i></a>
+                </li>
+                {% endif %} {% if site.instagram %}
+                <li class="social">
+                    <a href="{{ site.instagram }}" class="instagram"><i class="fa fa-instagram"></i></a>
+                </li>
+                {% endif %} {% if site.twitter %}
+                <li class="social">
+                    <a href="{{ site.twitter }}" class="twitter"><i class="fa fa-twitter"></i></a>
+                </li>
+                {% endif %} {% if site.facebook %}
+                <li class="social">
+                    <a href="{{ site.facebook }}" class="facebook"><i class="fa fa-facebook"></i></a>
+                </li>
+                {% endif %} {% if site.youtube %}
+                <li class="social">
+                    <a href="{{ site.youtube }}" class="youtube"><i class="fa fa-youtube"></i></a>
+                </li>
+                {% endif %} {% if site.vimeo %}
+                <li class="social">
+                    <a href="{{ site.vimeo }}" class="vimeo"><i class="fa fa-vimeo-square"></i></a>
+                </li>
+                {% endif %} {% if site.soundcloud %}
+                <li class="social">
+                    <a href="{{ site.soundcloud }}" class="soundcloud"><i class="fa fa-soundcloud"></i></a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+        <a href='#menu' class="toggle-link noline">
+            <i class="fa fa-navicon"></i>
+        </a>
+    </div>
+</div>
