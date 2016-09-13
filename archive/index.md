@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: main
 title: Archive
 ---
 #### by Month
