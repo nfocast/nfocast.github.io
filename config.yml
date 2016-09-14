@@ -3,6 +3,22 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 baseurl: 'nfocast.github.io'
 
+full_rebuild: true
+description: :)
+destination: jekyllbuild
+url: #place url
+permalink: /:title/
+paginate: 8
+paginate_path: /page/:num/
+infinite_scroll: true #change to false if you want to use pagination
+gems: [jekyll-paginate]
+tag_dir: /tag
+category_dir: /category
+author_dir: /author
+author_title_prefix: 'Posted by '
+media_folder: /media/compressed
+author_default_avatar: /profile-pic.jpg
+
 tumblr: "#"
 pinterest: "#"
 instagram: "#"
