@@ -1,6 +1,6 @@
 ---
 author: person
-layout: post-full
+layout: post
 title: Full Width Post
 featimg: 2.jpg
 tags: [text]
