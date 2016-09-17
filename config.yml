@@ -6,7 +6,7 @@ baseurl: 'nfocast.github.io'
 full_rebuild: true
 description: :)
 destination: jekyllbuild
-url: #place url
+url: 'nfocast.github.io'
 permalink: /:title/
 paginate: 8
 paginate_path: /page/:num/
