@@ -3,7 +3,6 @@
     <head>
         {% include head.html %}
         <link rel="stylesheet" type="text/css" href="nfocast.github.io/css/main.css" />
-         {℅ feed_meta ℅}
 
     </head>
 
@@ -19,7 +18,9 @@
                 <div class="articles">
                     {{ content }}
                 </div>
-               {% include article-index.html %}
+              
+                      {% for post in site.posts limit:100 %}
+                     {% include article-index.html %}
             </div>
         {% include footer.html %}
         {% if site.infinite_scroll == true %}
