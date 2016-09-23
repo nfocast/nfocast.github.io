@@ -6,20 +6,17 @@ layout: post
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-  <script src="tipuesearch/tipuesearch_content.js"></script>
-  <link href="tipuesearch/tipuesearch.css" rel="stylesheet">
-  <script src="tipuesearch/tipuesearch_set.js"></script>
-  <script src="tipuesearch/tipuesearch.min.js"></script>
+  <script src="nfocast.github.io/tipuesearch/tipuesearch_content.js"></script>
+  <link href="nfocast.github.io/tipuesearch/tipuesearch.css" rel="stylesheet">
+  <script src="nfocast.github.io/tipuesearch/tipuesearch_set.js"></script>
+  <script src="nfocast.github.io/tipuesearch/tipuesearch.min.js"></script>
 </head>
 
-<body>
-        <form action="search.html">
+        <form action="results-index.md">
         <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
 </form>
     
     <div id="tipue_search_content"></div>
-
-</body
 
 <script>
 $(document).ready(function() {
