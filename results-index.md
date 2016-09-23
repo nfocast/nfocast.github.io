@@ -2,7 +2,27 @@
 title: Search results
 layout: post
 ---
-  <form action="search.html">
-        <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+<head>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-<div id="tipue_search_content"></div>
+  <script src="tipuesearch/tipuesearch_content.js"></script>
+  <link href="tipuesearch/tipuesearch.css" rel="stylesheet">
+  <script src="tipuesearch/tipuesearch_set.js"></script>
+  <script src="tipuesearch/tipuesearch.min.js"></script>
+</head>
+
+<body>
+        <form action="search.html">
+        <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+</form>
+    
+    <div id="tipue_search_content"></div>
+
+</body
+
+<script>
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch();
+});
+</script>
