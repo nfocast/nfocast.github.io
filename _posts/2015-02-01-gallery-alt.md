@@ -4,7 +4,7 @@ layout: post
 type: gallery
 featimg: gallery-2.jpg
 title: Gallery Alternative
-tags: [gallery, image]
+tags: [gallery, image, art]
 category: [image]
 gallery:
     - images:
