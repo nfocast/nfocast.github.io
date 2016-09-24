@@ -19,6 +19,11 @@ author_title_prefix: 'Posted by '
 media_folder: /media/compressed
 author_default_avatar: /profile-pic.jpg
 
+collections:
+  my_categories:
+    output: true
+    permalink: /blog/category/:name/
+
 tumblr: "#"
 pinterest: "#"
 instagram: "#"
