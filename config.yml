@@ -1,4 +1,4 @@
-name: NfoCaster
+name: NfoCast
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 baseurl: 'nfocast.github.io'
