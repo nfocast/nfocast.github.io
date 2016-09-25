@@ -2,7 +2,7 @@
 <html>
     <head>
         {% include head.html %}
-        <link rel="stylesheet" type="text/css" href="nfocast.github.io/css/categories.css" />
+        <link rel="stylesheet" type="text/css" href="nfocast.github.io/css/main.css" />
     </head>
 
     <body class="index">
@@ -10,11 +10,28 @@
         
            {% include nav.html %}
         </header>
-        
-{% for post in site.categories[category_name] %}
-    <li>{{ post.title }}</li>
-{% endfor %}
-           
+        <div class="margin">
+            <div class="content">
+                </div>
+                {% if page.title %}<h1 class="title">{{ page.title }}</h1>{% endif %}
+                <div class="articles">
+                    {{ content }}
+                </div>
+              
+                      
+{% for category in site.categories %}
+  <li><a name="{{ category | first }}">{{ category | first }}</a>
+    <ul>
+    {% for posts in category %}
+      {% for post in posts %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    {% endfor %}
+    </ul>
+  </li>
+{% endfor %}}
+
+            </div>
         {% include footer.html %}
         {% if site.infinite_scroll == true %}
             <script src="{{ site.baseurl | replace: '//', '/' }}/js/build/infinite.min.js"></script>
