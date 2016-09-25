@@ -1,5 +1,5 @@
 ---
-layout: categories
+layout: category_index
 title: Funnies
 ---
 
