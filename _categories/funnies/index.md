@@ -30,4 +30,4 @@ category: funnies
     {% endfor %}
 
     {% endfor %}
-    </div>
+    </div> 
