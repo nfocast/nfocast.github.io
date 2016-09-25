@@ -2,6 +2,8 @@
 layout: main
 ---
 
+<link rel="alternate" type="application/rss+xml" title="Category RSS" href="/includes/custom/category_feed.xml">
+
 <h1 class="category">{{ page.title }}</h1>
 <ul class="posts">
 {% for post in site.categories[page.category] %}
