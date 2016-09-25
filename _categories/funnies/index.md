@@ -3,8 +3,7 @@ layout: categories
 title: Funnies
 category: funnies
 ---
-
- <div>
+<div>
     {% assign categories = site.categories | sort %}
     {% for category in categories %}
      <span class="site-tag">
@@ -14,8 +13,7 @@ category: funnies
     </span>
     {% endfor %}
     </div>
-
- <div id="index">
+          <div id="index">
 
     {% for category in categories %}
     <a name="{{ category[0] }}"></a><h2>{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </h2>
