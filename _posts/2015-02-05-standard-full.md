@@ -3,7 +3,7 @@ author: person
 layout: post
 title: Full Width Post
 featimg: 2.jpg
-tags: [text]
+tags: [text, funnies]
 category: [standard]
 ---
 a standard post displayed at full-width, only requires a layout, variable.
