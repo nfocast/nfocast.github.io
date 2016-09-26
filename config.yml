@@ -13,7 +13,7 @@ paginate_path: /page/:num/
 infinite_scroll: true #change to false if you want to use pagination
 gems: [jekyll-paginate]
 tag_dir: /categories/taglist
-category_dir: /category
+category_dir: /categories/
 author_dir: /author
 author_title_prefix: 'Posted by '
 media_folder: /media/compressed
