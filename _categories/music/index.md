@@ -1,7 +1,6 @@
 
 ---
-layout: category
+layout: post
 title: Music
-category: music
 ---
     
