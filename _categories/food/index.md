@@ -1,5 +1,5 @@
 ---
-layout: categories
+layout: category
 title: Food
 category: food
 slug: food
