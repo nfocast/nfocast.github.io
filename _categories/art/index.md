@@ -2,7 +2,6 @@
 layout: categories
 title: Art
 category: art
-slug: art
 ---
     
 {% comment %}
