@@ -6,7 +6,7 @@ audio-embed: <iframe width="100%" height="450" src="https://w.soundcloud.com/pla
 featimg: 6.jpg
 title: Audio Full
 tags: [music, soundcloud]
-category: [audio]
+category: [audio, music]
 ---
 This audio post is displays without a material-sidebar and has a featured image set for the index pages.
 
