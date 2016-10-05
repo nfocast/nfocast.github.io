@@ -39,12 +39,7 @@
                         <h1 class="post-title">
                             {{ page.title }}
                         </h1>
-                        <div class="meta">
-                            {% include author.html%} &bull;
-                            <span class="date">
-                                 {{ page.date | date: '%B %d, %Y' }}
-                            </span>
-                        </div>
+                       
                         {% if page.type == "standard" %}
                             {% if page.featimg %}
                                 <img class="featimg" src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ page.featimg }}" alt="{{ page.featimg }}">
