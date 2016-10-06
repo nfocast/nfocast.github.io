@@ -1,0 +1,3 @@
+.smpages { width:940px; margin:auto; height:30px; background-color: #ace}
+.smpages ul div {display: inline;}
+.smpages li {display: inline; border: 1px solid #000; width: 33%; float: left;}
